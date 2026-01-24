@@ -8,7 +8,7 @@ This project focuses on identifying Active Galactic Nuclei (AGN) around a specif
 * A sky map in Cartesian coordinates
 * A text file containing candidate AGN coordinates
 
-The goal is to identify likely AGN (with an emphasis on quasars) based on their infrared and optical properties.
+The purpose of this project is to identify likely AGN (with an emphasis on quasars) based on their infrared and optical properties.
 
 ---
 
@@ -61,7 +61,7 @@ Lower values of these colors correspond to bluer objects, which is typical of qu
 
 The project consists of two main programs:
 
-### 1. Finding Constraints
+### 1. Finding Constraints (dataastoph)
 
 This program is used to establish selection criteria for quasars.
 
@@ -73,13 +73,13 @@ This program is used to establish selection criteria for quasars.
 
   * A color–color diagram (u − g vs. g − r)
 
-The diagram highlights how quasars cluster in color space relative to normal galaxies. Redshift information is included to illustrate how quasar colors evolve with redshift.
+The diagram demonstrates how quasars cluster in color space relative to normal galaxies. Redshift information is included to illustrate how quasar colors evolve with redshift.
 
 These plots are used to define reasonable color boundaries for AGN candidate selection.
 
 ---
 
-### 2. Finding Possible AGN Candidates
+### 2. Finding Possible AGN Candidates (AGNfinder)
 
 This program identifies AGN candidates around a specific coordinate.
 
